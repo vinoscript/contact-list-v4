@@ -2,14 +2,28 @@
 <div id="">
 
   <h1>Contacts 4.0</h1>
-  <p>Enter a user ID below.</p>
+
+  <!-- Search by ID - to be completed -->
+  <h4>Search by Contact ID</h4>
   
   <input type="text" name="user_id" id="user_id" placeholder="Contact ID#...">
   
-  <a href="#" id="submit-button">Pull Contact Data</a>
+  <button href="#" id="search-contact-id">Fetch Contact</button>
   
   <div id="ghapidata" class="clearfix"></div>
+  <!-- End - search by ID -->
 
+
+  <!-- Add a new contact -->
+  <h4>Add a New Contact</h4>
+  <input type="text" id="firstname" placeholder="First Name...">
+  <input type="text" id="lastname" placeholder="Last Name...">
+  <input type="email" id="email" placeholder="Email...">
+  <button id="add-contact">Add Contact!</button>
+  <!-- End - add new contact -->
+
+
+  <!-- Display Contact -->
   <h2>Contacts</h2>
   <ul id="contacts"></ul>
 
