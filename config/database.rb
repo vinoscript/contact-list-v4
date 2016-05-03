@@ -16,4 +16,6 @@ configure do
     autoload ActiveSupport::Inflector.camelize(filename), model_file
   end
 
+  
+
 end
