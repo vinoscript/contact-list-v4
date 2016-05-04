@@ -1,30 +1,57 @@
 
 <div id="">
 
-  <h1>Contacts 4.0</h1>
+  <h3>Contacts<small class="text-muted">4.0</small></h3>
+
+  <!-- Action Buttons -->
+  <button id="show-contact-button" class="btn-primary">Contacts</button>
+  <button id="search-contact-button" class="btn-primary">Search Contacts</button>
+  <button id="add-contact-button" class="btn-primary">Add Contact</button>
+  <br><br>
+
+
+  <!-- Show contacts -->
+  <div id="show-contact">
+    <h4>Contacts:</h4>
+    <p id="contacts"></p>
+  </div>
+  <!-- End - show contacts -->
+
 
   <!-- Search by ID - to be completed -->
-  <h4>Search by Contact ID</h4>
-  
-  <input type="text" name="user_id" id="user_id" placeholder="Contact ID#...">
-  
-  <button href="#" id="search-contact-id">Fetch Contact</button>
-  
-  <div id="ghapidata" class="clearfix"></div>
+  <div id="search-contact">
+  <input type="text" name="#" id="search-params" placeholder="Search by first name...">
+  <button id="submit-search-button" class="btn-success">Search Contact!</button>
+  </div>
   <!-- End - search by ID -->
 
 
   <!-- Add a new contact -->
-  <h4>Add a New Contact</h4>
+  <div id="add-contact">
   <input type="text" id="firstname" placeholder="First Name...">
   <input type="text" id="lastname" placeholder="Last Name...">
   <input type="email" id="email" placeholder="Email...">
-  <button id="add-contact">Add Contact!</button>
+  <button id="submit-contact-button" class="btn-success">Add Contact!</button>
+  </div>
   <!-- End - add new contact -->
 
 
-  <!-- Display Contact -->
-  <h2>Contacts</h2>
-  <ul id="contacts"></ul>
-
 </div>
+
+<!-- <table>
+<thead>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+  </tr>
+</thead>
+<tbody>
+  <tr id="contacts">
+    <td></td>
+  </tr>
+</tbody>
+</table> -->
+
+
+
